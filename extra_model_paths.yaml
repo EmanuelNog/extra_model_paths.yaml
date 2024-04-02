@@ -3,37 +3,45 @@
 
 #config for a1111 ui
 #all you have to do is change the base_path to where yours is installed
-a111:
-    base_path: path/to/stable-diffusion-webui/
-
-    checkpoints: models/Stable-diffusion
-    configs: models/Stable-diffusion
-    vae: models/VAE
-    loras: |
-         models/Lora
-         models/LyCORIS
-    upscale_models: |
-                  models/ESRGAN
-                  models/RealESRGAN
-                  models/SwinIR
-    embeddings: embeddings
-    hypernetworks: models/hypernetworks
-    controlnet: models/ControlNet
+#a111:
+#    base_path: path/to/stable-diffusion-webui/
+#
+#    checkpoints: models/Stable-diffusion
+#    configs: models/Stable-diffusion
+#    vae: models/VAE
+#    loras: |
+#         models/Lora
+#         models/LyCORIS
+#    upscale_models: |
+#                  models/ESRGAN
+#                  models/RealESRGAN
+#                  models/SwinIR
+#    embeddings: embeddings
+#    hypernetworks: models/hypernetworks
+#    controlnet: models/ControlNet
 
 #config for comfyui
 #your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
 
-#comfyui:
-#     base_path: path/to/comfyui/
-#     checkpoints: models/checkpoints/
-#     clip: models/clip/
-#     clip_vision: models/clip_vision/
-#     configs: models/configs/
-#     controlnet: models/controlnet/
-#     embeddings: models/embeddings/
-#     loras: models/loras/
-#     upscale_models: models/upscale_models/
-#     vae: models/vae/
+comfyui:
+     base_path: /root
+     checkpoints: /root/comfy_dir/models/checkpoints
+     clip: /root/comfy_dir/models/clip/
+     clip_vision: /root/comfy_dir/models/clip_vision/
+     configs: /root/comfy_dir/models/configs/
+     controlnet: /root/comfy_dir/models/controlnet/
+     diffusers: /root/comfy_dir/models/diffusers/
+     embeddings: /root/comfy_dir/models/embeddings/
+     gligen: /root/comfy_dir/models/gligen/
+     hypernetworks: /root/comfy_dir/models/hypernetworks/
+     loras: /root/comfy_dir/models/loras/
+     photomaker: /root/comfy_dir/models/photomaker/
+     style_models: /root/comfy_dir/models/style_models/
+     unet: /root/comfy_dir/models/unet/
+     upscale_models: /root/comfy_dir/models/upscale_models/
+     vae: /root/comfy_dir/models/vae/
+     vae_approx: /root/comfy_dir/models/vae_approx/
+     custom_nodes: /root/comfy_dir/custom_nodes  
 
 #other_ui:
 #    base_path: path/to/ui
