@@ -42,7 +42,7 @@ comfyui:
      vae: /root/comfy_dir/models/vae/
      vae_approx: /root/comfy_dir/models/vae_approx/
      custom_nodes: /root/comfy_dir/custom_nodes  
-     ipadapter: /root/models/comfy_dir/ipadapter
+     ipadapter: /root/comfy_dir/models/ipadapter
 
 #other_ui:
 #    base_path: path/to/ui
