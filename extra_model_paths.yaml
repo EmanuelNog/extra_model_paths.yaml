@@ -19,3 +19,4 @@ comfyui:
      custom_nodes: /root/comfy_dir/custom_nodes  
      ipadapter: /root/comfy_dir/models/ipadapter
      instantid: /root/comfy_dir/models/instantid
+     insightface: /root/comfy_dir/models/insightface
