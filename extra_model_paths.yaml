@@ -20,3 +20,4 @@ comfyui:
      ipadapter: /root/comfy_dir/models/ipadapter
      instantid: /root/comfy_dir/models/instantid
      insightface: /root/comfy_dir/models/insightface
+     inpaint: /root/comfy_dir/models/inpaint
