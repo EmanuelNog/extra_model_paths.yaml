@@ -21,3 +21,5 @@ comfyui:
      instantid: /root/comfy_dir/models/instantid
      insightface: /root/comfy_dir/models/insightface
      inpaint: /root/comfy_dir/models/inpaint
+     landmarks: /root/comfy_dir/models/landmarks
+     bisenet: /root/comfy_dir/models/bisenet
